@@ -1,0 +1,23 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "richrd.lewis@gmail.com",
+                "Name": "Richard Lewis"
+            }
+        ],
+        "Dependencies": [],
+        "Description": "Adds shortcuts to move all windows to a specific screen",
+        "Icon": "preferences-system-windows-script-test",
+        "Id": "moveallwindowstoscreen",
+        "License": "GPL",
+        "Name": "Move All Windows to Screen",
+        "ServiceTypes": [
+            "KWin/Script"
+        ],
+        "Version": "1.0"
+    },
+    "X-KDE-PluginKeyword": "moveallwindowstoscreen",
+    "X-Plasma-API": "javascript",
+    "X-Plasma-MainScript": "code/main.js"
+}
